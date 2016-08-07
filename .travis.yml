@@ -10,7 +10,6 @@ env:
 before_install:
     - export DJANGO_SETTINGS_MODULE="ecommerce_project.settings"
     - export PYTHONPATH="$HOME/builds/joegotflow83/travis-ci-ecommerce"
-    - export PIP_USE_MIRRORS=true
 
 install:
     - pip install -r requirements.txt
